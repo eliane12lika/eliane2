@@ -1,0 +1,131 @@
+ALUNO-22@KauanTeles MINGW64 ~
+$ cd documents
+
+ALUNO-22@KauanTeles MINGW64 ~/documents
+$ cd _git
+
+ALUNO-22@KauanTeles MINGW64 ~/documents/_git
+$ git config -global user.name
+error: did you mean `--global` (with two dashes)?
+
+ALUNO-22@KauanTeles MINGW64 ~/documents/_git
+$ ^C
+
+ALUNO-22@KauanTeles MINGW64 ~/documents/_git
+$ git config --global user.name
+anaflavia
+
+ALUNO-22@KauanTeles MINGW64 ~/documents/_git
+$ git config --global user.email
+ruyluquesacademico@gmail.com
+
+ALUNO-22@KauanTeles MINGW64 ~/documents/_git
+$ git clone https://github.com/RuyLuques/Atividade-SENAI.git
+Cloning into 'Atividade-SENAI'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+
+ALUNO-22@KauanTeles MINGW64 ~/documents/_git
+$ cd aula
+
+ALUNO-22@KauanTeles MINGW64 ~/documents/_git/aula (main)
+$ git init
+Reinitialized existing Git repository in C:/Users/ALUNO-22/Documents/_git/aula/.git/
+
+ALUNO-22@KauanTeles MINGW64 ~/documents/_git/aula (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   anaflavia.txt
+
+
+ALUNO-22@KauanTeles MINGW64 ~/documents/_git/aula (main)
+$ gi remote add origin https://github.com/RuyLuques/Atividade-SENAI.git
+bash: gi: command not found
+
+ALUNO-22@KauanTeles MINGW64 ~/documents/_git/aula (main)
+$ git remote add origin https://github.com/RuyLuques/Atividade-SENAI.git
+error: remote origin already exists.
+
+ALUNO-22@KauanTeles MINGW64 ~/documents/_git/aula (main)
+$ git push -u origin main
+Everything up-to-date
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+
+ALUNO-22@KauanTeles MINGW64 ~/documents/_git/aula (main)
+$
+
+
+
+ALUNO-22@KauanTeles MINGW64 ~/documents/_git/aula (main)
+$
+
+ALUNO-22@KauanTeles MINGW64 ~/documents/_git/aula (main)
+$
+
+ALUNO-22@KauanTeles MINGW64 ~/documents/_git/aula (main)
+$ cd ..
+
+ALUNO-22@KauanTeles MINGW64 ~/documents/_git
+$ git clone https://github.com/eliane12lika/eliane2.git
+Cloning into 'eliane2'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+
+ALUNO-22@KauanTeles MINGW64 ~/documents/_git
+$ cd eliane2
+
+ALUNO-22@KauanTeles MINGW64 ~/documents/_git/eliane2 (main)
+$ git init
+Reinitialized existing Git repository in C:/Users/ALUNO-22/Documents/_git/eliane2/.git/
+
+ALUNO-22@KauanTeles MINGW64 ~/documents/_git/eliane2 (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        anaflavia.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+ALUNO-22@KauanTeles MINGW64 ~/documents/_git/eliane2 (main)
+$ cd ..
+
+ALUNO-22@KauanTeles MINGW64 ~/documents/_git
+$ cd eliane2
+
+ALUNO-22@KauanTeles MINGW64 ~/documents/_git/eliane2 (main)
+$ git init
+Reinitialized existing Git repository in C:/Users/ALUNO-22/Documents/_git/eliane2/.git/
+
+ALUNO-22@KauanTeles MINGW64 ~/documents/_git/eliane2 (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        anaflavia.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+ALUNO-22@KauanTeles MINGW64 ~/documents/_git/eliane2 (main)
+$ git add .
+
+ALUNO-22@KauanTeles MINGW64 ~/documents/_git/eliane2 (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   anaflavia.txt
